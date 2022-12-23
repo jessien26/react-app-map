@@ -1,0 +1,54 @@
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+.leftContainer{
+    display: flex;
+    width: 50%;
+}
+.rightContainer{
+    margin: 10%;
+    width: 50%;
+
+}
+.img{
+    width: 100%;
+    margin-top: 10%;
+}
+.tagline{
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0 5%;
+    width: 100%;
+    align-content: left;
+}
+.information{
+    font-size: 14px;
+    margin: 5%;
+    width: 100%;
+    align-content: left;
+}
+.button{
+    background-color: aqua;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 10px;
+}
+.priceButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.price{
+    margin: 0 20px;
+    font-size: 30px;
+}
+.button{
+    margin: 0 20px;
+}
